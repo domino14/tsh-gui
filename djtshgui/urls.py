@@ -6,12 +6,14 @@ from django.conf.urls.defaults import patterns, include, url
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'tshgui.views.home', name='home'),
-    # url(r'^tshgui/', include('tshgui.foo.urls')),
+    # url(r'^$', 'djtshgui.views.home', name='home'),
+    # url(r'^djtshgui/', include('djtshgui.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
+    url(r'^$', 'base.views.home'),
+    url(r'^getTshConfig/$', 'base.views.getTshConfig'),
 )

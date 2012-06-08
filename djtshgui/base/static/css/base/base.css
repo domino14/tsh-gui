@@ -1,0 +1,14 @@
+.division {
+    width: 200px;
+    height: 200px;
+    font-size: 80px;
+    font-family: Verdana;
+    border: 2px solid #AAAAAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px #AAAAAA;
+    float: left;
+    line-height: 180px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    cursor: pointer;
+}

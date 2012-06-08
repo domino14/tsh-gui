@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>TSH GUI</title>
+
+    <link href="/static/css/base/base.css" rel="stylesheet" type="text/css"></link>
+
+    <script type="text/javascript" src="/static/js/base/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="/static/js/base/csrf_ajax.js"></script>
+    <script type="text/javascript" src="/static/js/base/tshgui.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            App.init($.parseJSON("{{divisions|escapejs}}"));
+            // this only calls when the dom is ready
+        });
+    </script>
+</head>
+<body>
+    <div id="guiholder">
+        <div id="divisions"></div>
+        <div id="gameselect"></div>
+        <div id="numberinput"></div>
+    </div>
+</body>
+</html>
