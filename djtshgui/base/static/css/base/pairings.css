@@ -1,0 +1,66 @@
+.diva {
+    background-color: #ffcccc;
+}
+
+.divb {
+    background-color: #ccffcc;
+}
+
+.divc {
+    background-color: #ccffff;
+}
+
+.divd {
+    background-color: #ffffcc;
+}
+
+#pairingsview {
+    width: 1240px;
+    height: 750px;
+}
+
+.pairing {
+    float: left;
+    margin: 0 0 0 50px;
+}
+
+.opponent {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    margin: 0 10px 0 0px;
+
+}
+
+.playername {
+    display: inline-block;
+    width: 250px;
+    overflow: hidden;
+    text-align: center;
+}
+
+body {
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+.vs {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+}
+
+#titleView {
+    width: 1240px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.playernumber {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 5px #aaaaaa;
+}

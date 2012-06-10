@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>TSH PAIRINGS</title>
+
+    <link href="/static/css/base/pairings.css" rel="stylesheet" type="text/css"></link>
+
+    <script type="text/javascript" src="/static/js/base/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="/static/js/base/csrf_ajax.js"></script>
+    <script type="text/javascript" src="/static/js/base/tshpairings.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            PairingsView.init($.parseJSON("{{divisions|escapejs}}"));
+           // this only calls when the dom is ready
+            $("#showpairings").click(function() {
+                PairingsView.showPairings($("#roundstart").val(), $("#roundfinish").val());
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="roundconfig">
+        Round start: <input type="text" id="roundstart" /><br/>
+        Round finish: <input type="text" id="roundfinish" /><br/>
+        <button id ="showpairings">Show Pairings</button>
+    </div>
+    <div id="titleView"></div>
+    <div id="pairingsView"></div>
+</body>
+</html>

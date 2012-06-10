@@ -18,6 +18,7 @@ def parseDivs():
 
     # now parse each division
 
+    # TODO IMPORTANT -- this does not handle two first names correctly (Maria, Julie Ellen) or Winter's singular name
     for div in divisions:
         f = open(tourneydir + '/' + divisions[div]['file'])
         pn = 1

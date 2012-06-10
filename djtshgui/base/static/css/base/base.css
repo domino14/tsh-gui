@@ -1,3 +1,11 @@
+#divisionsHolder {
+    width: 1000px;
+    height: 700px;
+}
+
+#divisions {
+    clear: both;
+}
 .division {
     width: 200px;
     height: 200px;
@@ -11,4 +19,99 @@
     margin: 20px 20px 20px 20px;
     text-align: center;
     cursor: pointer;
+}
+
+.number {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    font-family: Verdana;
+    border: 2px solid #AAAAAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px #AAAAAA;
+    line-height: 80px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn_ok {
+    background-color: #aaffaa;
+}
+
+.btn_cancel {
+    background-color: #ffaaaa;
+    font-size: 20px;
+}
+
+#numberinput {
+    width: 375px;
+    height: 500px;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px #AAAAAA;
+    float: left;
+}
+
+#numberentered {
+    font-size: 40px;
+    font-family: Verdana;
+}
+
+.number:active {
+    background-color: #eeeeee;
+}
+
+.btn_ok:active {
+    background-color: #ccffcc;
+}
+
+.btn_cancel:active {
+    background-color: #ffcccc;
+}
+
+#gameselect {
+    clear: both;
+    width: 1024px;
+    height: 600px;
+    border: 2px solid #aaaaaa;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px #aaaaaa;
+}
+
+.gameentry {
+    width: 400px;
+    height: 60px;
+    float: left;
+    margin: 20px 20px 20px 20px;
+    border: 2px solid #aaaaaa;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px #aaaaaa;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+.instructions {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Verdana;
+    float: left;
+}
+
+.btn_back {
+    float: left;
+    width: 120px;
+    background-color: #ffcccc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Verdana;
+    cursor: pointer;
+    border: 2px solid #aaaaaa;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px #aaaaaa;
+    text-align: center;
 }

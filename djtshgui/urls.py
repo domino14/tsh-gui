@@ -16,4 +16,5 @@ urlpatterns = patterns('',
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'base.views.home'),
     url(r'^getTshConfig/$', 'base.views.getTshConfig'),
+    url(r'^pairings/$', 'base.views.showPairings')
 )

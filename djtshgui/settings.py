@@ -149,4 +149,4 @@ LOGGING = {
 ## TSH-GUI SPECIFIC 
 ## THIS IS THE PLACE TO EDIT ##
 ######################
-TOURNEY_DIRECTORY = '~/tsh/mytest'
+TOURNEY_DIRECTORY = '~/tsh/CovinaJun12'
